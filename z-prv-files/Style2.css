@@ -1,11 +1,6 @@
 body {
   font-family: work-sans, sans-serif;
 }
-.font-face {
-  font-family: "Necto-Mono";
-  src: url("Necto-Mono.woff2") format("woff2"),
-       url("Necto-Mono.woff") format("woff");
-}
 .topnav {
   overflow: hidden;
 }
@@ -39,6 +34,11 @@ nav {font-weight: 400;
 }
 .footer {
   background-color: #FCB140;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 10px 8px;
+  text-decoration: none;
 }
 .left-footer {float: left;
 }
